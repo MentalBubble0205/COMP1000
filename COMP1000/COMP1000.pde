@@ -3,7 +3,7 @@ int pacPosY;
 int pacMouth;
 int direction;
 int speed;
-
+//Hi MentalBubble
 
 void setup() {
   background(0);
@@ -37,7 +37,7 @@ void draw() {
 }
 
 void keyPressed() {
-  fill(255, 0, 0); 
+  fill(255, 0, 0);
   if (keyCode == ' ') {
     direction = direction * -1;
   }
